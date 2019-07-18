@@ -26,7 +26,7 @@ SnapReachability uses delagtion pattern to notify about network events, also it 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DominatorVbN' => 'as9039851921@gmail.com' }
   s.source           = { :git => 'https://github.com/DominatorVbN/SnapReachability.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/iOS_Dev_Amit'
+  s.social_media_url = 'https://twitter.com/iOS_Dev_Amit'
 
   s.ios.deployment_target = '8.0'
 
