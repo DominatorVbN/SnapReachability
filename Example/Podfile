@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SnapReachability_Tests' do
+  pod 'SnapReachability', :path => '../'
+  
+  
+end
