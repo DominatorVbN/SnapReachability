@@ -1,0 +1,22 @@
+{
+  "name": "SnapReachability",
+  "version": "0.1.0",
+  "summary": "A short description of SnapReachability.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DominatorVbN/SnapReachability",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DominatorVbN": "amit.samant@engineerbabu.in"
+  },
+  "source": {
+    "git": "https://github.com/DominatorVbN/SnapReachability.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SnapReachability/Classes/**/*"
+}

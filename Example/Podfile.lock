@@ -1,0 +1,16 @@
+PODS:
+  - SnapReachability (0.1.0)
+
+DEPENDENCIES:
+  - SnapReachability (from `../`)
+
+EXTERNAL SOURCES:
+  SnapReachability:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapReachability: 9f54f26d7ae31788877fad54c6c7f04f4891ff33
+
+PODFILE CHECKSUM: 801d1acc950b2cf6326834750671fa42ffe5af86
+
+COCOAPODS: 1.7.2

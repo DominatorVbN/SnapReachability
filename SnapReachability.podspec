@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SnapReachability'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SnapReachability.'
+  s.summary          = 'SnapReachability helps you to acces device network connectivity status with ease.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SnapReachability uses delagtion pattern to notify about network events, also it handle Realtime network detection.
                        DESC
 
   s.homepage         = 'https://github.com/DominatorVbN/SnapReachability'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SnapReachability/Classes/**/*'
-  
+  s.swift_versions = '4.2'
   # s.resource_bundles = {
   #   'SnapReachability' => ['SnapReachability/Assets/*.png']
   # }
