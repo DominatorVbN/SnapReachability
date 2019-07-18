@@ -12,7 +12,7 @@
 		512366D1B6159BF4DCDD71E5FCDF9A80 /* Pods-SnapReachability_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 585550489E08EB3330604F8B5005C833 /* Pods-SnapReachability_Tests-dummy.m */; };
 		58925A91AAE2B1B310F56A8B18949B6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6B098ED6F2A912BFF9A27004E3C83821 /* Pods-SnapReachability_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF0E0DE0EDE3BF2C67A95CF481F9A7D /* Pods-SnapReachability_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C11823A1317E7FF436033D90E3BA192 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B4262CC6042F0756504092037CA24 /* ReplaceMe.swift */; };
+		7C11823A1317E7FF436033D90E3BA192 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B4262CC6042F0756504092037CA24 /* Reachability.swift */; };
 		F1AFFBCCDF0B86006B35C0D301F3BF12 /* SnapReachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D23A7565C62E87A2B79D07090422AFD /* SnapReachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -35,17 +35,17 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D23A7565C62E87A2B79D07090422AFD /* SnapReachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapReachability-umbrella.h"; sourceTree = "<group>"; };
 		41F2097EED2C40727BA63F1018A1B246 /* Pods-SnapReachability_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapReachability_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		466BB3339AEE034D910EF44E5FF66F1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		52F5F20A1103C1B75A1EBD71693555E1 /* SnapReachability.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SnapReachability.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		550DBFE0A420E3BC04877A112EB9B439 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		466BB3339AEE034D910EF44E5FF66F1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		52F5F20A1103C1B75A1EBD71693555E1 /* SnapReachability.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SnapReachability.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		550DBFE0A420E3BC04877A112EB9B439 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		585550489E08EB3330604F8B5005C833 /* Pods-SnapReachability_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnapReachability_Tests-dummy.m"; sourceTree = "<group>"; };
-		675B4262CC6042F0756504092037CA24 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SnapReachability/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		675B4262CC6042F0756504092037CA24 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = SnapReachability/Classes/Reachability.swift; sourceTree = "<group>"; };
 		791CC3CE0191171E37380BA6789BDA61 /* Pods-SnapReachability_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapReachability_Tests-Info.plist"; sourceTree = "<group>"; };
-		7A1473344C388795AB54FFE7AF398976 /* SnapReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapReachability.framework; path = SnapReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1473344C388795AB54FFE7AF398976 /* SnapReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		895C619AF9D1C1E15F7D14A1335262B8 /* SnapReachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapReachability.xcconfig; sourceTree = "<group>"; };
-		9CD962686D2F2C642AA56758DE7011C4 /* Pods_SnapReachability_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnapReachability_Tests.framework; path = "Pods-SnapReachability_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD962686D2F2C642AA56758DE7011C4 /* Pods_SnapReachability_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapReachability_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1D5905B778E4B6E165CC93DD8F1C62 /* SnapReachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapReachability.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACF0E0DE0EDE3BF2C67A95CF481F9A7D /* Pods-SnapReachability_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapReachability_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C3CBABE40ACC551DD0DBC1AE042DA730 /* Pods-SnapReachability_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapReachability_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E05190183004E71C1B95D6F219E51CB0 /* Pods-SnapReachability_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapReachability_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		2FDA6FB164A5CE1C271DA8B444ECDB02 /* SnapReachability */ = {
 			isa = PBXGroup;
 			children = (
-				675B4262CC6042F0756504092037CA24 /* ReplaceMe.swift */,
+				675B4262CC6042F0756504092037CA24 /* Reachability.swift */,
 				8595533D087D43B2FC02EFB9D022292C /* Pod */,
 				56B2BDC947DE845A358D530BCED96CD1 /* Support Files */,
 			);
@@ -284,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C11823A1317E7FF436033D90E3BA192 /* ReplaceMe.swift in Sources */,
+				7C11823A1317E7FF436033D90E3BA192 /* Reachability.swift in Sources */,
 				1034A264EDBCCBD9E835D9A206DA1DA2 /* SnapReachability-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,8 +458,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
