@@ -1,5 +1,5 @@
 PODS:
-  - SnapReachability (0.1.0)
+  - SnapReachability (0.1.3)
 
 DEPENDENCIES:
   - SnapReachability (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SnapReachability: 9f54f26d7ae31788877fad54c6c7f04f4891ff33
+  SnapReachability: fa8b207e8d2a29d6f525294e94c3bc899cefdb71
 
 PODFILE CHECKSUM: 801d1acc950b2cf6326834750671fa42ffe5af86
 

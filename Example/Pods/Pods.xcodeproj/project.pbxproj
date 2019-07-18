@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1034A264EDBCCBD9E835D9A206DA1DA2 /* SnapReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E538F0ED7D3CD77A7FD862E2F56CD87 /* SnapReachability-dummy.m */; };
+		1754C8DB2555288967ABAC1BEEE8EB03 /* SnapReachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA60750DCBD200B7D54839D062B77FF9 /* SnapReachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4279C8ED4A25363033E16BBB4C0BEA06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		512366D1B6159BF4DCDD71E5FCDF9A80 /* Pods-SnapReachability_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 585550489E08EB3330604F8B5005C833 /* Pods-SnapReachability_Tests-dummy.m */; };
-		58925A91AAE2B1B310F56A8B18949B6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6B098ED6F2A912BFF9A27004E3C83821 /* Pods-SnapReachability_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF0E0DE0EDE3BF2C67A95CF481F9A7D /* Pods-SnapReachability_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C11823A1317E7FF436033D90E3BA192 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B4262CC6042F0756504092037CA24 /* Reachability.swift */; };
-		F1AFFBCCDF0B86006B35C0D301F3BF12 /* SnapReachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D23A7565C62E87A2B79D07090422AFD /* SnapReachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930965F777529B15F5C0F1527B012386 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066D2944E454508828AB68AF6464BCA5 /* Reachability.swift */; };
+		972F2C50D8156E3492F03B7B703947D8 /* SnapReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E53EDA52FDD287087C22B920E53E92ED /* SnapReachability-dummy.m */; };
+		BEA6FF3D55834DA0E26A069F9965E9F7 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76D981549489C9BB5F1958D1F697472 /* ReachabilityManager.swift */; };
+		E6D8F8F8B3CAF6FB28AA40E8ED969C07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,40 +28,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A519839D2735B4497FEA067C746133 /* SnapReachability.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SnapReachability.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		066D2944E454508828AB68AF6464BCA5 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = SnapReachability/Classes/Reachability.swift; sourceTree = "<group>"; };
 		0B43795FDEB6D8B57B30EF2514F192F9 /* Pods-SnapReachability_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SnapReachability_Tests.modulemap"; sourceTree = "<group>"; };
+		156B071429B4765EBB79CC78120CB92A /* SnapReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapReachability-prefix.pch"; sourceTree = "<group>"; };
 		19FDE603E2FFAA6047E16024CAA4FD96 /* Pods-SnapReachability_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapReachability_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2CC59125B23770A35F1E209395FCDA23 /* SnapReachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapReachability-Info.plist"; sourceTree = "<group>"; };
-		2E538F0ED7D3CD77A7FD862E2F56CD87 /* SnapReachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapReachability-dummy.m"; sourceTree = "<group>"; };
+		1D054BC1884B6EBC01BB7DE41B31C184 /* SnapReachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapReachability-Info.plist"; sourceTree = "<group>"; };
 		2E736C062171CEB3B5ECC05DDE2DC23E /* Pods-SnapReachability_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapReachability_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3D23A7565C62E87A2B79D07090422AFD /* SnapReachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapReachability-umbrella.h"; sourceTree = "<group>"; };
 		41F2097EED2C40727BA63F1018A1B246 /* Pods-SnapReachability_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapReachability_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		466BB3339AEE034D910EF44E5FF66F1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		52F5F20A1103C1B75A1EBD71693555E1 /* SnapReachability.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SnapReachability.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		550DBFE0A420E3BC04877A112EB9B439 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		585550489E08EB3330604F8B5005C833 /* Pods-SnapReachability_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnapReachability_Tests-dummy.m"; sourceTree = "<group>"; };
-		675B4262CC6042F0756504092037CA24 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = SnapReachability/Classes/Reachability.swift; sourceTree = "<group>"; };
+		6068FD0B455AFB328103E465500CC76B /* SnapReachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapReachability.modulemap; sourceTree = "<group>"; };
 		791CC3CE0191171E37380BA6789BDA61 /* Pods-SnapReachability_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnapReachability_Tests-Info.plist"; sourceTree = "<group>"; };
-		7A1473344C388795AB54FFE7AF398976 /* SnapReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		895C619AF9D1C1E15F7D14A1335262B8 /* SnapReachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapReachability.xcconfig; sourceTree = "<group>"; };
-		9CD962686D2F2C642AA56758DE7011C4 /* Pods_SnapReachability_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapReachability_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D1D5905B778E4B6E165CC93DD8F1C62 /* SnapReachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapReachability.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A1473344C388795AB54FFE7AF398976 /* SnapReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapReachability.framework; path = SnapReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		936B224673EDC1AC17ACE56C890A58AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		94D2A70EC10F5D399252C695E3B7446D /* SnapReachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapReachability.xcconfig; sourceTree = "<group>"; };
+		9CD962686D2F2C642AA56758DE7011C4 /* Pods_SnapReachability_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnapReachability_Tests.framework; path = "Pods-SnapReachability_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0CE0A7787920EFF7D0FC72126EF624 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ACF0E0DE0EDE3BF2C67A95CF481F9A7D /* Pods-SnapReachability_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnapReachability_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C3CBABE40ACC551DD0DBC1AE042DA730 /* Pods-SnapReachability_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapReachability_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E05190183004E71C1B95D6F219E51CB0 /* Pods-SnapReachability_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapReachability_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F117C3CC06782C2E50DBFFCD64704052 /* SnapReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapReachability-prefix.pch"; sourceTree = "<group>"; };
+		E53EDA52FDD287087C22B920E53E92ED /* SnapReachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapReachability-dummy.m"; sourceTree = "<group>"; };
+		E76D981549489C9BB5F1958D1F697472 /* ReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReachabilityManager.swift; path = SnapReachability/Classes/ReachabilityManager.swift; sourceTree = "<group>"; };
+		EA60750DCBD200B7D54839D062B77FF9 /* SnapReachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapReachability-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6757C40F0725CFF40BCC7913F1B47242 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58925A91AAE2B1B310F56A8B18949B6C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C25DD322852E5688BF1724EA392053FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,29 +63,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB93A8D78DB78011D54F77356C791AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D8F8F8B3CAF6FB28AA40E8ED969C07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FDA6FB164A5CE1C271DA8B444ECDB02 /* SnapReachability */ = {
+		16F4D318F77D06030B7AC41FE5D47C97 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				675B4262CC6042F0756504092037CA24 /* Reachability.swift */,
-				8595533D087D43B2FC02EFB9D022292C /* Pod */,
-				56B2BDC947DE845A358D530BCED96CD1 /* Support Files */,
+				E45A3A2A674C0B22D0515D71F45D054F /* SnapReachability */,
 			);
-			name = SnapReachability;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		56B2BDC947DE845A358D530BCED96CD1 /* Support Files */ = {
+		2C1479FBE33BA32C767F46430EEB84B5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9D1D5905B778E4B6E165CC93DD8F1C62 /* SnapReachability.modulemap */,
-				895C619AF9D1C1E15F7D14A1335262B8 /* SnapReachability.xcconfig */,
-				2E538F0ED7D3CD77A7FD862E2F56CD87 /* SnapReachability-dummy.m */,
-				2CC59125B23770A35F1E209395FCDA23 /* SnapReachability-Info.plist */,
-				F117C3CC06782C2E50DBFFCD64704052 /* SnapReachability-prefix.pch */,
-				3D23A7565C62E87A2B79D07090422AFD /* SnapReachability-umbrella.h */,
+				6068FD0B455AFB328103E465500CC76B /* SnapReachability.modulemap */,
+				94D2A70EC10F5D399252C695E3B7446D /* SnapReachability.xcconfig */,
+				E53EDA52FDD287087C22B920E53E92ED /* SnapReachability-dummy.m */,
+				1D054BC1884B6EBC01BB7DE41B31C184 /* SnapReachability-Info.plist */,
+				156B071429B4765EBB79CC78120CB92A /* SnapReachability-prefix.pch */,
+				EA60750DCBD200B7D54839D062B77FF9 /* SnapReachability-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SnapReachability";
@@ -103,14 +102,6 @@
 				7EE28F893BF7FCF71072FD6F562BB721 /* Pods-SnapReachability_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		66DE54D9780BF5D419BA1A80C722369F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2FDA6FB164A5CE1C271DA8B444ECDB02 /* SnapReachability */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7EE28F893BF7FCF71072FD6F562BB721 /* Pods-SnapReachability_Tests */ = {
@@ -130,12 +121,12 @@
 			path = "Target Support Files/Pods-SnapReachability_Tests";
 			sourceTree = "<group>";
 		};
-		8595533D087D43B2FC02EFB9D022292C /* Pod */ = {
+		949FBE49C4186015D71AE2E4A92F66A2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				466BB3339AEE034D910EF44E5FF66F1B /* LICENSE */,
-				550DBFE0A420E3BC04877A112EB9B439 /* README.md */,
-				52F5F20A1103C1B75A1EBD71693555E1 /* SnapReachability.podspec */,
+				9F0CE0A7787920EFF7D0FC72126EF624 /* LICENSE */,
+				936B224673EDC1AC17ACE56C890A58AC /* README.md */,
+				03A519839D2735B4497FEA067C746133 /* SnapReachability.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -152,7 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				66DE54D9780BF5D419BA1A80C722369F /* Development Pods */,
+				16F4D318F77D06030B7AC41FE5D47C97 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				EEA251489D620C6473412FF10AA86C78 /* Products */,
 				6511185DA200FC205D61DB1EBB7B551C /* Targets Support Files */,
@@ -167,6 +158,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E45A3A2A674C0B22D0515D71F45D054F /* SnapReachability */ = {
+			isa = PBXGroup;
+			children = (
+				066D2944E454508828AB68AF6464BCA5 /* Reachability.swift */,
+				E76D981549489C9BB5F1958D1F697472 /* ReachabilityManager.swift */,
+				949FBE49C4186015D71AE2E4A92F66A2 /* Pod */,
+				2C1479FBE33BA32C767F46430EEB84B5 /* Support Files */,
+			);
+			name = SnapReachability;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		EEA251489D620C6473412FF10AA86C78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +182,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		03D18B2EA8974E076FDC61E94D239868 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1754C8DB2555288967ABAC1BEEE8EB03 /* SnapReachability-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		369A9AD00ECDEE3326696CA7930C7EF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,25 +198,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DDC3A26AC362792C3BA7995989A186B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1AFFBCCDF0B86006B35C0D301F3BF12 /* SnapReachability-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E99E689E35AB69211C510A236EC076D2 /* SnapReachability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07531AA25EDB87BB26BB7AB0D613AF33 /* Build configuration list for PBXNativeTarget "SnapReachability" */;
+			buildConfigurationList = 2C5A25CE06A9713B092101189FC0756B /* Build configuration list for PBXNativeTarget "SnapReachability" */;
 			buildPhases = (
-				6DDC3A26AC362792C3BA7995989A186B /* Headers */,
-				611837A698355096272751947BD6844B /* Sources */,
-				6757C40F0725CFF40BCC7913F1B47242 /* Frameworks */,
-				469BAF416E8EEB9349F35D9445A70C2C /* Resources */,
+				03D18B2EA8974E076FDC61E94D239868 /* Headers */,
+				A38782567EA8DD1F9B769D36392069E9 /* Sources */,
+				CB93A8D78DB78011D54F77356C791AF0 /* Frameworks */,
+				98B536031302723A90DE86877B4B1F3A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -263,14 +266,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		469BAF416E8EEB9349F35D9445A70C2C /* Resources */ = {
+		5D1D4C8A0D6FF68FFFD70E59C28B4C84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D1D4C8A0D6FF68FFFD70E59C28B4C84 /* Resources */ = {
+		98B536031302723A90DE86877B4B1F3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,20 +283,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		611837A698355096272751947BD6844B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C11823A1317E7FF436033D90E3BA192 /* Reachability.swift in Sources */,
-				1034A264EDBCCBD9E835D9A206DA1DA2 /* SnapReachability-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A3736F56786A2D5F89102AA85C07BFE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				512366D1B6159BF4DCDD71E5FCDF9A80 /* Pods-SnapReachability_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38782567EA8DD1F9B769D36392069E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930965F777529B15F5C0F1527B012386 /* Reachability.swift in Sources */,
+				BEA6FF3D55834DA0E26A069F9965E9F7 /* ReachabilityManager.swift in Sources */,
+				972F2C50D8156E3492F03B7B703947D8 /* SnapReachability-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,9 +313,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4A7C5E1C5041C49FDB0E1B7F65FE8337 /* Debug */ = {
+		69F510762219DFE8CA7D5733AE76DD9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 895C619AF9D1C1E15F7D14A1335262B8 /* SnapReachability.xcconfig */;
+			baseConfigurationReference = 94D2A70EC10F5D399252C695E3B7446D /* SnapReachability.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -333,44 +337,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		971C84B6B5C00F9678CD6F2C47FBE646 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 895C619AF9D1C1E15F7D14A1335262B8 /* SnapReachability.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapReachability/SnapReachability-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapReachability/SnapReachability-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapReachability/SnapReachability.modulemap";
-				PRODUCT_MODULE_NAME = SnapReachability;
-				PRODUCT_NAME = SnapReachability;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		9F6D19BF825A6F98FC8C79749F72A683 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -458,7 +430,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -562,14 +535,46 @@
 			};
 			name = Release;
 		};
+		FC00316E06D1611F17CB104B79635F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D2A70EC10F5D399252C695E3B7446D /* SnapReachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapReachability/SnapReachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapReachability/SnapReachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapReachability/SnapReachability.modulemap";
+				PRODUCT_MODULE_NAME = SnapReachability;
+				PRODUCT_NAME = SnapReachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07531AA25EDB87BB26BB7AB0D613AF33 /* Build configuration list for PBXNativeTarget "SnapReachability" */ = {
+		2C5A25CE06A9713B092101189FC0756B /* Build configuration list for PBXNativeTarget "SnapReachability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A7C5E1C5041C49FDB0E1B7F65FE8337 /* Debug */,
-				971C84B6B5C00F9678CD6F2C47FBE646 /* Release */,
+				69F510762219DFE8CA7D5733AE76DD9F /* Debug */,
+				FC00316E06D1611F17CB104B79635F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

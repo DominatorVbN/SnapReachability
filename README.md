@@ -19,10 +19,35 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SnapReachability'
 ```
+## Usage
+```swift
+import SnapReachability
+...
+//start listening for network events
+ReachabilityManager.shared.stopMonitoring()
+ReachabilityManager.shared.addListener(listener: self)
 
+//stop listening for networl events
+ReachabilityManager.shared.stopMonitoring()
+ReachabilityManager.shared.removeListener(listener: self)
+
+//implement NetworkStatusListnerProtocol
+extension YouClas: NetworkStatusListener{
+    switch reachability.connection {
+        case .unavailable:
+            debugPrint("Network became unreachable")
+        case .wifi:
+            debugPrint("Network reachable through WiFi")
+        case .cellular:
+            debugPrint("Network reachable through Cellular Data")
+        case .none:
+            debugPrint("Unkown netwoprk status")
+    }
+}
+```
 ## Author
 
-DominatorVbN, amit.samant@engineerbabu.in
+DominatorVbN, amitsamant@outlook.com
 
 ## License
 
