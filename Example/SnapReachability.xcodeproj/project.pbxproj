@@ -442,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 256BA1CD768FD7260044893A /* Pods-SnapReachability_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -464,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBCF21869E1CB7D68D8AF10B /* Pods-SnapReachability_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
