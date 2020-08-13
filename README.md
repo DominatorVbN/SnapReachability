@@ -1,9 +1,9 @@
 # SnapReachability
 
-[![CI Status](https://img.shields.io/travis/DominatorVbN/SnapReachability.svg?style=flat-square)](https://travis-ci.org/DominatorVbN/SnapReachability)
-[![Version](https://img.shields.io/cocoapods/v/SnapReachability.svg?style=flat-square)](https://cocoapods.org/pods/SnapReachability)
-[![License](https://img.shields.io/cocoapods/l/SnapReachability.svg?style=flat-square)](https://cocoapods.org/pods/SnapReachability)
-[![Platform](https://img.shields.io/cocoapods/p/SnapReachability.svg?style=flat-square)](https://cocoapods.org/pods/SnapReachability)
+[![CI Status](https://img.shields.io/travis/DominatorVbN/SnapReachability.svg?style=for-the-badge)](https://travis-ci.org/DominatorVbN/SnapReachability)
+[![Version](https://img.shields.io/cocoapods/v/SnapReachability.svg?style=for-the-badge)](https://cocoapods.org/pods/SnapReachability)
+[![License](https://img.shields.io/cocoapods/l/SnapReachability.svg?style=for-the-badge)](https://cocoapods.org/pods/SnapReachability)
+[![Platform](https://img.shields.io/cocoapods/p/SnapReachability.svg?style=for-the-badge)](https://cocoapods.org/pods/SnapReachability)
 
 ## Example
 
